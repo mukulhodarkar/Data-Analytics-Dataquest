@@ -7,7 +7,6 @@ final_data = []
 #print("final data:", final_data)#Create an empty list. And also when program execute 2nd time, we need a clean list.
 for row in rows:
     split_row = row.split(',') #mistakes I was doing: 1. Splitting data, rowS...instead we need to split the individual row and not the whole file.
-    #print("\n")
-    #print("row", row, "split_row", split_row)
+    #print(split_row)
     final_data.append(split_row)
-print(final_data)
+#print(final_data)
