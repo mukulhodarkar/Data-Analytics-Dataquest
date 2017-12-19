@@ -9,7 +9,7 @@ for row in legislators[1:]:
     years.append(parts[0])
 for year in years:
     try:
-        int(year)
+        year = int(year)
     except:
         pass
     converted_years.append(year)
