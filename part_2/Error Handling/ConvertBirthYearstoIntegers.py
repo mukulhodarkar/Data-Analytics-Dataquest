@@ -10,4 +10,4 @@ for row in legislators:
     except Exception:
         birth_year = 0
     row.append(birth_year) #appends birthyear at the end of each record.
-#print(row)
+print(legislators)
